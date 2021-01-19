@@ -8,43 +8,52 @@
 </head>
 
 <body>
-    <h1>Contact Us</h1>
+    <h1 class="text-center text-green-700 font-bold text-4xl uppercase m-8">Contact Us</h1>
 
-    <h2>Lauren<h2>
-    <h3>Chief Executive Officer & Lead Designer</h3>
-    <p>P: 867-5309</p>
-    <p><strong>About Me:</strong> Lauren is a proven design professional with 6 years of experience. Clients can expect creativity, enthusiasm, and attentiveness to their needs when working with her.</p>
+    <div class="flex bg-green-100 border border-green-800 p-8">
+        <div class="w-1/2">
+            <h2 class="font-bold text-2xl text-center">Lauren<h2>
+            <h3 class="font-semibold text-xl text-center">Chief Executive Officer & Lead Designer</h3>
+            <div>
+                <img class="rounded-xl border-2 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrsRR_3W7WY5pChQoUY43hgK4Vj5UsM-YyWw&usqp=CAU" width="400" height="400">
+            </div>
+            <p class="text-lg"><strong>About Me:</strong> Lauren is a proven design professional with 6 years of experience. Clients can expect creativity, enthusiasm, and attentiveness to their needs when working with her.</p>
+            <p class="text-lg"><strong></strong>P: 867-5309</p>
+        </div>
 
-    <h2>Matt Baier<h2>
-    <h3>Chief Operations Officer</h3>
-    <p>P: 867-5309</p>
-    <p>
-        <img src="https://media-exp1.licdn.com/dms/image/C5103AQFHer-RhgnQoQ/profile-displayphoto-shrink_200_200/0/1516504412113?e=1616025600&v=beta&t=t9IbSD4I185mdxQ97QL2ttH585WB9D6zKmSOsYwAkh8">
-    </p>
-    <p><strong>About Me:</strong> Matt will arrange all project coordination while negotiating with Wayfair on your behalf for all your home purchases and installations.</p>
+        <div class="w-1/2">
+            <h2 class="font-bold text-2xl text-center">Matt Baier<h2>
+            <h3 class="font-semibold text-xl text-center">Chief Operations Officer</h3>
+            <div>
+                <img class="rounded-xl border-2 mx-auto" src="https://media-exp1.licdn.com/dms/image/C5103AQFHer-RhgnQoQ/profile-displayphoto-shrink_200_200/0/1516504412113?e=1616630400&v=beta&t=zQNvv110ZK4Nb1c7WENMdDk-obgBhPySq-ICo55xSdM" width="400" height="400">
+            </div>
+            <p class="text-lg"><strong>About Me:</strong> Matt will arrange all project coordination while negotiating with Wayfair on your behalf for all your home purchases and installations.</p>
+            <p class="text-lg"><strong>P:</strong> 867-5309</p>
+        </div>
+    </div>
 
     <!--Customer Contact Form-->
-    <form netlify>
-        <label class="block mt-4 font-bold" for="name">Name</label>
-        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
-        focus:border-purple-500" type="text" id="name" name="name">
-  
-        <label class="block mt-4 font-bold" for="email">Email</label>
-        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
-        focus:border-purple-500" type="text" id="email" name="email">
+    <div class="m-8">
+        <h1 class="text-xl font-bold text-left">Interested in working with us?</h1>
 
-        <label class="block mt-4 font-bold" for="Phone">Phone Number</label>
-        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
-        focus:border-purple-500" type="text" id="Phone" name="Phone">
-      
-        <label class="block mt-4 font-bold" for="order">How can we help you?</label>
-        <textarea rows="4" class="p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
-        focus:border-purple-500" id="order" name="order"></textarea>
-      
-        <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Submit form!</button>
-      </form>
+        <form netlify>
+            <label class="block font-bold mt-4" for="name">Name</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl" type="text" id="name" name="name">
+    
+            <label class="block font-bold mt-4" for="email">Email</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl" type="text" id="email" name="email">
 
+            <label class="block font-bold mt-4" for="phone">Phone Number</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl" type="text" id="phone" name="phone">
+        
+            <label class="block font-bold mt-4" for="order">How can we help you?</label>
+            <textarea rows="4" class="p-2 w-full border border-gray-400 rounded shadow-xl" id="order" name="order"></textarea>
+        
+            <button class="block text-semibold text-white bg-green-500 rounded px-2 py-2 mt-4">Submit Info</button>
+        </form>
+    </div>
+    
       <!--Page Navigation Links-->
-    <p>Check out our <a href="services.html">Services</a> or navigate <a href="index.html">home</a>.</p>
+    <p class="m-8">Check out our <a class="font-semibold text-blue-500" href="services.html">Services</a> or navigate <a class="font-semibold text-blue-500" href="index.html">home</a>.</p>
 </body>
 </html>
